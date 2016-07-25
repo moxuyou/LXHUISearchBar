@@ -1,0 +1,309 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0358F7591D45FEFB006DA04C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0358F7581D45FEFB006DA04C /* main.m */; };
+		0358F75C1D45FEFB006DA04C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0358F75B1D45FEFB006DA04C /* AppDelegate.m */; };
+		0358F7641D45FEFB006DA04C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0358F7631D45FEFB006DA04C /* Assets.xcassets */; };
+		0358F7671D45FEFB006DA04C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0358F7651D45FEFB006DA04C /* LaunchScreen.storyboard */; };
+		0358F7701D45FF5C006DA04C /* LXHSearchController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0358F76F1D45FF5C006DA04C /* LXHSearchController.m */; };
+		0358F7721D45FF72006DA04C /* LXHSearchController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0358F7711D45FF72006DA04C /* LXHSearchController.storyboard */; };
+		0358F7761D4633FA006DA04C /* LXHResultController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0358F7741D4633FA006DA04C /* LXHResultController.m */; };
+		0358F7771D4633FA006DA04C /* LXHResultController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0358F7751D4633FA006DA04C /* LXHResultController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0358F7541D45FEFB006DA04C /* LXHSearchBarTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LXHSearchBarTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0358F7581D45FEFB006DA04C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0358F75A1D45FEFB006DA04C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0358F75B1D45FEFB006DA04C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0358F7631D45FEFB006DA04C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0358F7661D45FEFB006DA04C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0358F7681D45FEFB006DA04C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0358F76E1D45FF5C006DA04C /* LXHSearchController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXHSearchController.h; sourceTree = "<group>"; };
+		0358F76F1D45FF5C006DA04C /* LXHSearchController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXHSearchController.m; sourceTree = "<group>"; };
+		0358F7711D45FF72006DA04C /* LXHSearchController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LXHSearchController.storyboard; sourceTree = "<group>"; };
+		0358F7731D4633FA006DA04C /* LXHResultController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXHResultController.h; sourceTree = "<group>"; };
+		0358F7741D4633FA006DA04C /* LXHResultController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXHResultController.m; sourceTree = "<group>"; };
+		0358F7751D4633FA006DA04C /* LXHResultController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LXHResultController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0358F7511D45FEFB006DA04C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0358F74B1D45FEFB006DA04C = {
+			isa = PBXGroup;
+			children = (
+				0358F7561D45FEFB006DA04C /* LXHSearchBarTest */,
+				0358F7551D45FEFB006DA04C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0358F7551D45FEFB006DA04C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0358F7541D45FEFB006DA04C /* LXHSearchBarTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0358F7561D45FEFB006DA04C /* LXHSearchBarTest */ = {
+			isa = PBXGroup;
+			children = (
+				0358F75A1D45FEFB006DA04C /* AppDelegate.h */,
+				0358F75B1D45FEFB006DA04C /* AppDelegate.m */,
+				0358F76E1D45FF5C006DA04C /* LXHSearchController.h */,
+				0358F76F1D45FF5C006DA04C /* LXHSearchController.m */,
+				0358F7711D45FF72006DA04C /* LXHSearchController.storyboard */,
+				0358F7731D4633FA006DA04C /* LXHResultController.h */,
+				0358F7741D4633FA006DA04C /* LXHResultController.m */,
+				0358F7751D4633FA006DA04C /* LXHResultController.xib */,
+				0358F7631D45FEFB006DA04C /* Assets.xcassets */,
+				0358F7651D45FEFB006DA04C /* LaunchScreen.storyboard */,
+				0358F7681D45FEFB006DA04C /* Info.plist */,
+				0358F7571D45FEFB006DA04C /* Supporting Files */,
+			);
+			path = LXHSearchBarTest;
+			sourceTree = "<group>";
+		};
+		0358F7571D45FEFB006DA04C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0358F7581D45FEFB006DA04C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0358F7531D45FEFB006DA04C /* LXHSearchBarTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0358F76B1D45FEFB006DA04C /* Build configuration list for PBXNativeTarget "LXHSearchBarTest" */;
+			buildPhases = (
+				0358F7501D45FEFB006DA04C /* Sources */,
+				0358F7511D45FEFB006DA04C /* Frameworks */,
+				0358F7521D45FEFB006DA04C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LXHSearchBarTest;
+			productName = LXHSearchBarTest;
+			productReference = 0358F7541D45FEFB006DA04C /* LXHSearchBarTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0358F74C1D45FEFB006DA04C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = moxuyou;
+				TargetAttributes = {
+					0358F7531D45FEFB006DA04C = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 0358F74F1D45FEFB006DA04C /* Build configuration list for PBXProject "LXHSearchBarTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0358F74B1D45FEFB006DA04C;
+			productRefGroup = 0358F7551D45FEFB006DA04C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0358F7531D45FEFB006DA04C /* LXHSearchBarTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0358F7521D45FEFB006DA04C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0358F7721D45FF72006DA04C /* LXHSearchController.storyboard in Resources */,
+				0358F7671D45FEFB006DA04C /* LaunchScreen.storyboard in Resources */,
+				0358F7641D45FEFB006DA04C /* Assets.xcassets in Resources */,
+				0358F7771D4633FA006DA04C /* LXHResultController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0358F7501D45FEFB006DA04C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0358F75C1D45FEFB006DA04C /* AppDelegate.m in Sources */,
+				0358F7591D45FEFB006DA04C /* main.m in Sources */,
+				0358F7701D45FF5C006DA04C /* LXHSearchController.m in Sources */,
+				0358F7761D4633FA006DA04C /* LXHResultController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0358F7651D45FEFB006DA04C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0358F7661D45FEFB006DA04C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0358F7691D45FEFB006DA04C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0358F76A1D45FEFB006DA04C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0358F76C1D45FEFB006DA04C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LXHSearchBarTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.moxuyou.LXHSearchBarTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0358F76D1D45FEFB006DA04C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LXHSearchBarTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.moxuyou.LXHSearchBarTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0358F74F1D45FEFB006DA04C /* Build configuration list for PBXProject "LXHSearchBarTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0358F7691D45FEFB006DA04C /* Debug */,
+				0358F76A1D45FEFB006DA04C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0358F76B1D45FEFB006DA04C /* Build configuration list for PBXNativeTarget "LXHSearchBarTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0358F76C1D45FEFB006DA04C /* Debug */,
+				0358F76D1D45FEFB006DA04C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0358F74C1D45FEFB006DA04C /* Project object */;
+}
